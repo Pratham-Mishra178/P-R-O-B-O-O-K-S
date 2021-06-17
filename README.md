@@ -6,10 +6,10 @@ Website - https://pbook.netlify.app/
 <br>
 ## Contributers Are Welcomed 
 <br>
-1. Fork the repo
+1. `Fork` the repo
 <br>
-2. Clone it into your local system
+2. `Clone` it into your local system
 <br>
-3. Create an issue first and mention what you want to contribute in the discription of repo
+3. Create an `issue` first and mention what you want to contribute in the discription of repo
 <br>
-4. Then do your work and make a pr after pushing it
+4. Then do your work and make a `PR` after pushing it
