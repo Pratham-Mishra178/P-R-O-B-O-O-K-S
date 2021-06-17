@@ -14,7 +14,7 @@ Website - https://pbook.netlify.app/
 2. `Clone` it into your local system
 <br>
 
-3. Create an `issue` first and mention what you want to contribute in the discription of repo
+3. Create an `issue` first and mention what you want to contribute in the discription of issue
 <br>
 
 4. Then do your work and make a `PR` after pushing it
