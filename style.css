@@ -8,7 +8,6 @@
     background-color: #000000;
     min-width: 80px;
     z-index: 1;
-    text-align: center;
 }
 
 .drop a:hover {
@@ -32,6 +31,3 @@
     visibility: hidden;
 }
 
-.text{
-    display: flex;
-}
