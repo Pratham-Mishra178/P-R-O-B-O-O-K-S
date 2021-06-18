@@ -5,9 +5,10 @@
 .drop {
     display: none;
     position: absolute;
-    background-color: #000000;
+    background-color: #1d1d1d91;
     min-width: 80px;
     z-index: 1;
+    border-radius: 5px;
 }
 
 .drop a:hover {
