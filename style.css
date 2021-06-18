@@ -1,0 +1,30 @@
+.area {
+    cursor: pointer;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 80px;
+    z-index: 1;
+}
+
+.drop a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.text:hover .drop {
+    display: block;
+}
+
+.text:hover .label {
+    background-color: transparent;
+}
+
+.drop a{
+    width: 100%;
+}
+
+
