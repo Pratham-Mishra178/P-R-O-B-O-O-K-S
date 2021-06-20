@@ -2,6 +2,8 @@
     cursor: pointer;
 }
 
+
+
 .drop {
     display: none;
     position: absolute;
@@ -26,9 +28,12 @@
 
 .drop a{
     width: 100%;
-    
 }
 
 .no{
     visibility: hidden;
+}
+
+.bg{
+    background: url(images/stat.png);
 }
