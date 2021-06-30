@@ -42,3 +42,22 @@
     background-color: rgba(134, 132, 132, 0.425);
     border-radius: 2px;
 }
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.up{
+    width: 25px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: none ;
+}
+
+.up:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}

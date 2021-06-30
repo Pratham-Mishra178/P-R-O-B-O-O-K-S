@@ -36,7 +36,7 @@ fill="#000000" stroke="none">
 </button>
       <span class="ml-3 text-xl">P R O B O O K S</span>
     </a>
-    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex  items-center text-base justify-center">
       <a href="https://pratham-mishra178.github.io/About-Me/" target="_blank" class="mr-5 hover:text-white">Author</a>
       <!-- <a href="#" class="mr-5 hover:text-white">Team</a> -->
       <a href="books.html" class="mr-5 hover:text-white">Books</a>
@@ -78,6 +78,9 @@ fill="#000000" stroke="none">
 </header>
 <!-- header end -->
 
+<div class="up">
+  <img src="images/up.webp">
+</div>
 <!-- intro start -->
 <section class="text-gray-400 bg-gray-900 body-font" style="background-image: url('images/back.jpg');">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -156,7 +159,7 @@ fill="#000000" stroke="none">
 <!-- stats end -->
 
 <!-- contact start -->
-<section class="text-gray-400 bg-gray-900 body-font relative" style="background-image: url('images/cont.jpg');">
+<section class="text-gray-400 bg-gray-900 body-font " style="background-image: url('images/cont.jpg');">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
@@ -166,19 +169,19 @@ fill="#000000" stroke="none">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
             <form action="https://formspree.io/f/meqvklyd" method="POST">
-          <div class="relative">
+          <div class="">
             <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
             <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
           </div>
         </div>
         <div class="p-2 w-1/2">
-          <div class="relative">
+          <div class="">
             <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
             <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
           </div>
         </div>
         <div class="p-2 w-full">
-          <div class="relative">
+          <div class="">
             <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
             <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
           </div>
@@ -293,6 +296,30 @@ fill="#000000" stroke="none">
   </div>
 </footer>
 <!-- footer end -->
+
+
+<script>
+  const scrollBtn = document.querySelector('.up');
+
+  window.addEventListener('scroll', () => {
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+    {
+      scrollBtn.style.display = 'block';
+    }
+    else
+    {
+      scrollBtn.style.display = 'none';
+    }
+      
+  })
+  scrollBtn.addEventListener('click' , () => {
+    window.scroll({
+      top: 0,
+      behavior: "smooth"
+    })
+  })
+</script>
+
 
 </body>
 </html>

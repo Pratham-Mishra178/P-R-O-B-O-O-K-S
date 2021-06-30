@@ -77,7 +77,9 @@ fill="#000000" stroke="none">
   </div>
 </header>
 <!-- header end -->
-
+<div class="up">
+  <img src="images/up.webp">
+</div>
 <!-- teamUi start -->
 <section class="text-gray-400 bg-gray-900 body-font" style="background-image: url('images/back.jpg');">
   <div class="container px-5 py-24 mx-auto">
@@ -369,6 +371,31 @@ fill="#000000" stroke="none">
   </div>
 </footer>
 <!-- footer end -->
+
+
+
+<script>
+  const scrollBtn = document.querySelector('.up');
+
+  window.addEventListener('scroll', () => {
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+    {
+      scrollBtn.style.display = 'block';
+    }
+    else
+    {
+      scrollBtn.style.display = 'none';
+    }
+      
+  })
+  scrollBtn.addEventListener('click' , () => {
+    window.scroll({
+      top: 0,
+      behavior: "smooth"
+    })
+  })
+</script>
+
 
 </body>
 </html>
