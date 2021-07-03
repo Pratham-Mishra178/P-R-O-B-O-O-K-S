@@ -62,3 +62,6 @@ header{
     transition: 0.3s;
 }
 
+.top > span{
+    color: #fca400;
+}
