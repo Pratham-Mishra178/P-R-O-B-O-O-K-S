@@ -127,3 +127,10 @@ header{
             max-height: 60vw;
         }
     }
+
+    @media (max-width: 400px) {
+        .head {
+            margin-top: -60px;
+        }
+    }
+    
